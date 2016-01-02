@@ -3,6 +3,8 @@
 Decouple state, markup, and rendering engine for reusable UI components. This follows the basic pattern in [Raynos/mercury](https://github.com/Raynos/mercury/), but further decoupled. Is this useful in practice? It depends on view engines subscribing to the `h(tag, props, children)` pattern.
 
 
+## examples
+
 Use a component with default view library:
 ```js
 var component = require('vdom-example');
